@@ -1,12 +1,12 @@
 # HodgeRank Method
 
-The present notebook provides a complete code in Wolfram Mathematica Language to determine the ranking, the inconsistencies, the matrix plots, and the graphs obtained via HodgeRank Method applied in Social Representation Theory.
+The present notebook provides a complete code in *Wolfram Mathematica Language* to determine the ranking, the inconsistencies, the matrix plots, and the graphs obtained via HodgeRank Method applied in Social Representation Theory.
 
-Observe that here we chose to follow the standard convention, where the average used in the calculation of the flows is the score difference and inner products in 0-cochain and 1-cochain have, respectively, unit weight and weights equal to the number of individuals (voters) who cited the words $i$ and $j$.
+Observe that here we chose to follow the standard convention, where the average used in the calculation of the flows is the score difference and inner products in $0$-cochain and $1$-cochain have, respectively, unit weight and weights equal to the number of individuals (voters) who cited the words $i$ and $j$.
 
-- The input of such a code must be a .csv file (a table with the lines presenting all the individuals (voters) and the columns represented by all the words. The elements are 0, 1, ..., 5 depending on the ranking of each individual (voter)).
+- The **input** of such a code must be a .csv file (a table with the lines presenting all the individuals (voters) and the columns represented by all the words. The elements are $0, 1, ..., 5$ depending on the ranking of each individual (voter)).
 
-- The outputs are:
+- The **outputs** are:
   1. The ranking table (.tex);
   2. The ranking table (.csv);
   3. A table with the reability of the ranking and some aditional information (.pdf);
